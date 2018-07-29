@@ -9,8 +9,8 @@ public class BubbleSortAlgorithmTest {
   @Test
   public void testBubbleSort() {
     int[] values = ArrayGenerator.generateValues();
-    BubbleSortAlgorithm bubbleSort = new BubbleSortAlgorithm();
-    bubbleSort.sort(values);
+    BubbleSortAlgorithm sortAlgorithm = new BubbleSortAlgorithm();
+    sortAlgorithm.sort(values);
 
     for (int i = 0; i < values.length - 1; i++) {
       assertTrue("values are not properly sorted", values[i] <= values[i + 1]);
