@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class InsertionSortAlgorithmTest {
+public class SelectionSortAlgorithmTest {
 
   @Test
   public void testInsertionSort() {
     int[] values = ArrayGenerator.generateValues();
-    InsertionSortAlgorithm bubbleSort = new InsertionSortAlgorithm();
+    SelectionSortAlgorithm bubbleSort = new SelectionSortAlgorithm();
     bubbleSort.sort(values);
 
     for (int i = 0; i < values.length - 1; i++) {

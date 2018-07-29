@@ -2,7 +2,7 @@ package edu.buet.cse.spring.sort.impl;
 
 import edu.buet.cse.spring.sort.SortAlgorithm;
 
-public class InsertionSortAlgorithm implements SortAlgorithm {
+public class SelectionSortAlgorithm implements SortAlgorithm {
 
   @Override
   public void sort(int[] values) {
