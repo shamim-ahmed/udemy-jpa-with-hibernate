@@ -7,6 +7,7 @@ import edu.buet.cse.spring.sort.SortAlgorithm;
 
 @Component
 public class BinarySearchBean {
+
   @Autowired
   private SortAlgorithm sortAlgorithm;
 
