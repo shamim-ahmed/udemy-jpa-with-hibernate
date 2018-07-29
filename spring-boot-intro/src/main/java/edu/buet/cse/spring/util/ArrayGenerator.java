@@ -1,9 +1,9 @@
-package edu.buet.cse.spring.sort.impl;
+package edu.buet.cse.spring.util;
 
 import java.util.Random;
 
 public class ArrayGenerator {
-  public static final int MAX = 1000;
+  public static final int MAX = 100;
   public static final int SIZE = MAX / 10;
 
   public static int[] generateValues() {

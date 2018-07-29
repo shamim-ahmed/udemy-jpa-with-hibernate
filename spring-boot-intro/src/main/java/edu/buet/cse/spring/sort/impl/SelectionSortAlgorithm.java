@@ -1,7 +1,12 @@
 package edu.buet.cse.spring.sort.impl;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
 import edu.buet.cse.spring.sort.SortAlgorithm;
 
+@Component
+@Primary
 public class SelectionSortAlgorithm implements SortAlgorithm {
 
   @Override

@@ -1,7 +1,10 @@
 package edu.buet.cse.spring.sort.impl;
 
+import org.springframework.stereotype.Component;
+
 import edu.buet.cse.spring.sort.SortAlgorithm;
 
+@Component
 public class InsertionSortAlgorithm implements SortAlgorithm {
 
   @Override
