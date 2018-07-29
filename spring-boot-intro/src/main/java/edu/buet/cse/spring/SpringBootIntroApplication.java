@@ -19,7 +19,11 @@ public class SpringBootIntroApplication {
     int[] values = ArrayGenerator.generateValues();
     int searchKey = values[0];
     int i = binarySearchBean.binarySearch(values, searchKey);
-    System.out.printf("the value %d was found at location %d of the array %s%n", searchKey, i,
+
+    System.out.printf("The value %d was found at location %d of the array %s%n", searchKey, i,
         Arrays.toString(values));
+
+    System.out.printf("The class of the sort algorithm being used is %s%n",
+        binarySearchBean.getSortAlgorithm().getClass().getCanonicalName());
   }
 }
